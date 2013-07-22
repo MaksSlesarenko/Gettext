@@ -13,7 +13,7 @@ function test(param) {
 	var s5 = jsgettext( "another function" );
 	var s6 = avoidme("should not see me!");
 	var s7 = T_("string 2: \"escaped double quotes\"");
-	var s8 = __('string 2: \'escaped single quotes\'');
+	var s8 = n__('string 1: \'escaped single quotes\'', 'string 2: \'escaped single quotes\'');
 	var s9 = T_('¡¡¿¿Texto con açentos, eñes, etcétera??!!');
 
 	// "string in comment"
